@@ -37,7 +37,7 @@ python train.py -s data -m data/output --eval
 After getting the vanilla Gaussian points, you need to run ```kmeans.py```
 
 ```shell
-python kmeans.py --file <<path to store Gaussian point cloud> --eval <whether to test>
+python kmeans.py --file <path to store Gaussian point cloud> --eval <whether to test>
 ```
 
 Then, in the same path, you can find the following pointcloud at 
