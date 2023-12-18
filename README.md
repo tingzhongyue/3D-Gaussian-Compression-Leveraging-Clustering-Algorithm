@@ -50,6 +50,6 @@ Finally, if you need to render the image, you need to run ```render_vq.py```
 python render.py -m data/output --eval
 ```
 
-### Clustering 3DGS points using K-Means
+### Clustering 3DGS points using MeanShift
 
 The operation method here is the same as the above method.
